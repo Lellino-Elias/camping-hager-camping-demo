@@ -75,11 +75,6 @@ const campingHager: CampsiteConfig = {
         image: { src: `${IMG}/gallery-bef683d207.webp`, alt: "Wohnwagen-Stellplatz mit Vorzelt und Versorgung im Park Camping Hager" },
       },
       {
-        title: "Zelt & Wohnwagen",
-        text: "Ob Zelt oder Wohnwagen — auf der weitläufigen Anlage findest du genügend Raum für deinen Platz.",
-        image: { src: `${IMG}/gallery-60bef63c63.webp`, alt: "Weitläufige Anlage des Park Camping Hager mit Stellplätzen" },
-      },
-      {
         title: "Mitten in der Natur",
         text: "Rundherum offene Wiesen und das Bergpanorama des Unterinntals — viel Grün und Ruhe abseits vom Trubel.",
         image: { src: `${IMG}/gallery-f40978f773.webp`, alt: "Offene Wiesen und Bergpanorama rund um den Park Camping Hager" },
