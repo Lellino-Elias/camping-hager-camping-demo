@@ -70,14 +70,14 @@ const campingHager: CampsiteConfig = {
       "Vom ebenen Wiesenstellplatz bis zum Dauerplatz für Sommer und Winter — bei Hager stellst du dich aufs Grüne und hast alles Nötige in Reichweite.",
     features: [
       {
-        title: "Stellplatz mit Versorgung",
-        text: "Dein Standplatz für Wohnwagen und Wohnmobil kommt mit Strom, Wasser, Müll und Ortsabgabe — alles inklusive.",
-        image: { src: `${IMG}/gallery-bef683d207.webp`, alt: "Wohnwagen-Stellplatz mit Vorzelt und Versorgung im Park Camping Hager" },
-      },
-      {
         title: "Mitten in der Natur",
         text: "Rundherum offene Wiesen und das Bergpanorama des Unterinntals — viel Grün und Ruhe abseits vom Trubel.",
         image: { src: `${IMG}/gallery-f40978f773.webp`, alt: "Offene Wiesen und Bergpanorama rund um den Park Camping Hager" },
+      },
+      {
+        title: "Stellplatz mit Versorgung",
+        text: "Dein Standplatz für Wohnwagen und Wohnmobil kommt mit Strom, Wasser, Müll und Ortsabgabe — alles inklusive.",
+        image: { src: `${IMG}/gallery-bef683d207.webp`, alt: "Wohnwagen-Stellplatz mit Vorzelt und Versorgung im Park Camping Hager" },
       },
     ],
   },
@@ -104,11 +104,11 @@ const campingHager: CampsiteConfig = {
     headingEmphasis: "deinen Stellplatz",
     intro: "Wähle Platzart, Zeitraum und Personen — Familie Hager bestätigt dir deine Buchung persönlich.",
     pricesArePlaceholder: false,
-    priceNote: "Preise 2025/2026 · 2 Personen inkl. Strom, Wasser, Müll & Ortsabgabe · Kinder bis 4 Jahre frei · keine Kartenzahlung",
+    priceNote: "Preise 2025/2026 · Preis für 2 Personen · Wohnwagen inkl. Strom, Wasser, Müll & Ortsabgabe · Zelt inkl. Wasser, Müll & Ortsabgabe · Kinder bis 4 Jahre frei · keine Kartenzahlung",
     highlight: { title: "Kinder bis 4 frei", text: "Kinder von 0 bis 4 Jahren übernachten kostenlos mit." },
     categories: [
       { id: "wohnwagen", label: "Wohnwagen / Wohnmobil", perNight: 37, perExtraGuest: 12 },
-      { id: "zelt", label: "Zeltplatz", perNight: 27, perExtraGuest: 10 },
+      { id: "zelt", label: "Zeltplatz", perNight: 27 },
     ],
   },
 
